@@ -151,3 +151,35 @@
   padding: 10px 0;
   width: 80%;
 }
+
+.recent-testimonial,
+.upcoming-event {
+  padding: 16px 0;
+}
+
+.recent-testimonial h2,
+.upcoming-event h2 {
+  font-size: 18px;
+  font-weight: normal;
+  color: #ff8c3f;
+}
+
+.recent-testimonial img {
+  width: 65px;
+}
+
+.recent-testimonial p,
+.upcoming-event p {
+  margin: auto;
+  padding: 5px 0;
+  width: 80%;
+}
+
+footer {
+  margin-top: 20px;
+  padding: 16px 0;
+  font-size: 13px;
+  text-align: center;
+  color: #fff;
+  background-color: #ff8c3f;
+}
