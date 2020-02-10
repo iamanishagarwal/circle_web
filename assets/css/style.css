@@ -1,3 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.button {
+  padding: 2px 14px;
+  border: none;
+  color: #000;
+  background-color: #bdbdbd;
+}
+
 .navbar {
   margin: 0;
   padding: 0;
@@ -16,22 +28,84 @@
   background-size: 120% 100%;
 }
 
+.navbar-collapse {
+  position: absolute;
+  width: 100%;
+  top: 84px;
+  z-index: 16;
+}
+
 .navbar-nav {
-  border-top: 1px solid #000000;
-  border-bottom: 1px solid #000000;
+  border-top: 1px solid #000;
+  border-bottom: 1px solid #000;
 }
 
 .nav-link {
   text-align: center;
-  color: #ffffff;
-  background-color: #000000;
+  color: #fff;
+  background-color: #000;
 }
 
 .nav-link:hover {
-  color: #000000;
+  color: #000;
   background-color: #fff;
+}
+
+.carousel-indicators {
+  bottom: -15px;
+}
+
+.carousel-indicators li {
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #ff8c3f;
 }
 
 .carousel-item img {
   height: 175px;
+}
+
+.body-content {
+  padding: 0px 16px;
+  text-align: center;
+  color: #868e96;
+}
+
+.body-content header {
+  padding: 16px;
+  font-size: 26px;
+  color: #ff8c3f;
+}
+
+.core-services p {
+  margin-bottom: 0px;
+  font-size: 15px;
+}
+
+.core-services .services div {
+  margin: 20px 0px;
+}
+
+.core-services .services .service img {
+  width: 75px;
+}
+
+.core-services .services .service p {
+  margin: auto;
+  width: 80%;
+}
+
+.core-services .services .service button {
+  margin-top: 16px;
+}
+
+.latest-projects {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.latest-projects img {
+  height: 220px;
 }
