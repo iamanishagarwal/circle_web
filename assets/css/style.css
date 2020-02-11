@@ -56,6 +56,7 @@
 }
 
 .carousel-indicators li {
+  height: 5px;
   opacity: 1;
 }
 
@@ -123,14 +124,21 @@
   height: 400px;
   background-image: url("../images/architecture-backlit-buildings-california.jpg");
   background-size: cover;
+  background-position: center;
   opacity: 0.6;
 }
 
 .banner-content {
-  text-align: center;
   color: white;
+  text-align: center;
   position: absolute;
-  top: 29px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.banner-content .row {
+  margin-left: 0px !important;
+  margin-right: 0px !important;
 }
 
 .banner-content img {
@@ -140,8 +148,7 @@
 .banner-content h2 {
   margin: auto;
   border-bottom: dashed #f44336;
-  padding: 5px 0;
-  width: 85%;
+  display: inline;
   font-size: 20px;
   font-weight: normal;
 }
@@ -149,7 +156,7 @@
 .banner-content p {
   margin: auto;
   padding: 10px 0;
-  width: 80%;
+  width: 85%;
 }
 
 .recent-testimonial,
@@ -182,4 +189,94 @@ footer {
   text-align: center;
   color: #fff;
   background-color: #ff8c3f;
+}
+
+@media (min-width: 576px) {
+  .navbar-collapse {
+    position: static;
+  }
+
+  .navbar-nav {
+    margin: 0 !important;
+    margin-left: auto !important;
+    margin-right: 16px !important;
+    border: none;
+  }
+
+  .nav-link {
+    padding-top: 50px;
+    padding-bottom: 14px;
+    padding-left: 16px !important;
+    padding-right: 16px !important;
+    color: #000;
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .nav-link:hover {
+    color: #fff;
+    background-color: #ff8c3f;
+  }
+
+  .carousel-item img {
+    height: 450px;
+  }
+
+  .core-services p {
+    margin: auto;
+    width: 75%;
+  }
+
+  .core-services .services {
+    margin: auto;
+    width: 90%;
+  }
+
+  .latest-projects .row div {
+    padding: 0px !important;
+  }
+
+  .latest-projects .row {
+    padding: inherit;
+  }
+
+  .latest-projects img {
+    height: 200px;
+  }
+
+  .banner-block .image-wrapper .image {
+    height: 275px;
+  }
+
+  .banner-content img {
+    width: 200px;
+  }
+
+  .banner-content .data {
+    text-align: left;
+  }
+
+  .banner-content p,
+  .banner-content h2 {
+    width: 100%;
+    text-align: left;
+  }
+
+  #testimonial_event .row {
+    padding: inherit;
+    text-align: left;
+  }
+
+  #testimonial_event p {
+    width: 100%;
+  }
+
+  .recent-testimonial--content {
+    display: flex;
+  }
+
+  .recent-testimonial--content img {
+    padding-right: 16px;
+  }
 }
