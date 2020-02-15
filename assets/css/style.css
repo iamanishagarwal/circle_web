@@ -75,9 +75,10 @@
 }
 
 .body-content h2 {
-  padding: 16px;
+  margin-bottom: 0px;
+  padding: 20px;
   font-size: 26px;
-  font-weight: 400;
+  font-weight: 300;
   color: #f67f22;
 }
 
@@ -167,9 +168,10 @@
 
 .recent-testimonial h2,
 .upcoming-event h2 {
+  margin-bottom: 0.5rem;
   padding: 0px;
   font-size: 18px;
-  font-weight: normal;
+  font-weight: 300;
   color: #ff8c3f;
 }
 
@@ -211,10 +213,9 @@ footer {
     padding-bottom: 14px;
     padding-left: 10px !important;
     padding-right: 10px !important;
-    color: #898989;
+    color: #363636;
     background-color: #fff;
     text-transform: uppercase;
-    font-weight: 500;
   }
 
   .nav-link:hover,
@@ -229,11 +230,6 @@ footer {
 
   .body-content h2 {
     font-size: 32px;
-  }
-
-  .core-services p {
-    margin: auto;
-    width: 75%;
   }
 
   .core-services .services {
@@ -301,6 +297,7 @@ footer {
   .recent-testimonial h2,
   .upcoming-event h2 {
     font-size: 24px;
+    margin-bottom: 1rem;
   }
 
   .recent-testimonial--content img {
@@ -311,6 +308,11 @@ footer {
 @media (min-width: 992px) {
   .carousel-item img {
     height: 67vh;
+  }
+
+  .core-services p {
+    margin: auto;
+    width: 75%;
   }
 
   .latest-projects img {
