@@ -74,9 +74,10 @@
   color: #7c7c7c;
 }
 
-.body-content header {
+.body-content h2 {
   padding: 16px;
   font-size: 26px;
+  font-weight: 400;
   color: #f67f22;
 }
 
@@ -166,6 +167,7 @@
 
 .recent-testimonial h2,
 .upcoming-event h2 {
+  padding: 0px;
   font-size: 18px;
   font-weight: normal;
   color: #ff8c3f;
@@ -225,7 +227,7 @@ footer {
     height: 35vh;
   }
 
-  .body-content header {
+  .body-content h2 {
     font-size: 32px;
   }
 
