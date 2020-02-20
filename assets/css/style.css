@@ -249,10 +249,6 @@ footer {
     padding: 0px !important;
   }
 
-  .latest-projects .row {
-    padding: inherit;
-  }
-
   .latest-projects img {
     margin: auto;
     width: 180px;
