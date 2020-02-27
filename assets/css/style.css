@@ -168,6 +168,10 @@ header .container {
   width: 300px;
 }
 
+#testimonial_event {
+  color: #373737;
+}
+
 .recent-testimonial,
 .upcoming-event {
   padding: 16px 0;
